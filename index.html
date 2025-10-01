@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlexTransport AB – Livsmedelstransporter</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f9fa; color:#222; }
+    header { background:#19a974; color:white; padding:20px; text-align:center; }
+    nav a { margin:0 10px; color:white; font-weight:bold; text-decoration:none; }
+    main { max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:8px; }
+    h1, h2, h3 { color:#19a974; }
+    footer { background:#222; color:#ddd; text-align:center; padding:20px; margin-top:30px; }
+    .btn { background:#19a974; color:white; padding:10px 16px; text-decoration:none; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FlexTransport AB</h1>
+    <p>Livsmedelstransporter som håller tiden – varje gång</p>
+    <nav>
+      <a href="#tjanster">Tjänster</a>
+      <a href="#om">Om oss</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tjanster">
+      <h2>Våra tjänster</h2>
+      <ul>
+        <li>Kyl- och frystransporter (0–8°C / −18°C)</li>
+        <li>Dagliga leveranser till butiker, restauranger och lager</li>
+        <li>Express & akuta transporter vid behov</li>
+      </ul>
+    </section>
+
+    <section id="om">
+      <h2>Om FlexTransport</h2>
+      <p>FlexTransport AB är ett familjeägt transportföretag med fokus på livsmedelslogistik. 
+         Vi arbetar i hela Mälardalen och övriga Sverige. Med våra moderna fordon och erfarna chaufförer
+         garanterar vi punktliga och säkra leveranser.</p>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p><strong>Telefon:</strong> +46 (0)70 000 00 00</p>
+      <p><strong>E-post:</strong> <a href="mailto:flextransportab@gmail.com">flextransportab@gmail.com</a></p>
+      <p><strong>Adress:</strong> Exempelgatan 1, 123 45 Stockholm</p>
+      <p><strong>Org.nr:</strong> 559198-6764 </p>
+      <p><a class="btn" href="mailto:flextransportab@gmail.com">Skicka offertförfrågan</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> FlexTransport AB – Alla rättigheter förbehållna
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
